@@ -11,7 +11,7 @@ Includes 3d-printable case **(only for 18650 cell and socket, needs glue like ho
 |GY-521|MPU6050 module|https://www.devicemart.co.kr/goods/view?no=1247052|
 |MSL-1C2P|Power Switch|https://www.devicemart.co.kr/goods/view?no=38883|
 |100k axial resistor|2ea. For battery voltage measurement|-|
-|18650 Li-ion cell|1ea-use any 18650 cell or Li-ion battery. note:the 3d model in STL files is made for 18650 cell.|-|
+|18650 Li-ion cell|1ea. use any 18650 cell or Li-ion battery. Solder to J2.    Note:the 3d model in STL files is made for 18650 cell.|-|
 |BB521|18650 battery socket|https://www.devicemart.co.kr/goods/view?no=12766763|
 # slimeVR Configuration
 **platformio.ini**
