@@ -3,7 +3,7 @@
 KiCad project - slimevr tracker using Geekble mini ESP32C3, MPU6050    
 Includes PCB Antenna (Meandered PIFA 2.4Ghz)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***Solder 1st pin(left side pin of ant. from top view) to Geekble mini's Ant feed(right side pad from top view)***    
-Includes 3d-printable case **(only for 18650 cell and socket, needs glue like hot melt for assembly)**
+Includes 3d-printable case **(for 18650 cell and socket, needs glue like hot melt for assembly)**
 # Used Components
 |Component|Description|Link|
 |---------|-----------|----|
@@ -11,12 +11,11 @@ Includes 3d-printable case **(only for 18650 cell and socket, needs glue like ho
 |GY-521|MPU6050 module|https://www.devicemart.co.kr/goods/view?no=1247052|
 |MSL-1C2P|Power Switch|https://www.devicemart.co.kr/goods/view?no=38883|
 |100k axial resistor|2ea. For battery voltage measurement|-|
-|18650 Li-ion cell|1ea. use any 18650 cell or Li-ion battery. Solder to J2.    Note:the 3d model in STL files is made for 18650 cell.|-|
+|18650 Li-ion cell|1ea. use any 18650 cell or Li-ion battery. Solder to J2.    Note:    the 3d model in STL files is made for 18650 cell. **This PCB does NOT has charging circuit!**|-|
 |BB521|18650 battery socket|https://www.devicemart.co.kr/goods/view?no=12766763|
 # slimeVR Configuration
 **platformio.ini**
 ```ini
-[env:esp32]
 [env:esp32c3]
 platform = espressif32 @ 6.7.0
 platform_packages =
@@ -56,3 +55,7 @@ board = lolin_c3_mini
 #define BATTERY_SHIELD_R1 100
 #define BATTERY_SHIELD_R2 100
 ```
+
+# Thanks to
+usini:usini_kicad_sensors    
+https://github.com/usini/usini_kicad_sensors
