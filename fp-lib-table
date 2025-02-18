@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "hotdoggu_slimeVR_PCB")(type "KiCad")(uri "${KIPRJMOD}/hotdoggu_slimeVR_PCB.pretty")(options "")(descr ""))
+)

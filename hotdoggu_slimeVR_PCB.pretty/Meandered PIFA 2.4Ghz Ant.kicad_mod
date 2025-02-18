@@ -1,0 +1,213 @@
+(footprint "Meandered PIFA 2.4Ghz Ant"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.18 -0.49 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "afc917a3-feab-42d8-b4c4-ea9203fc709a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Meandered PIFA 2.4Ghz Ant"
+		(at 0.25 4.71 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d5a3d9a8-3abd-4488-a269-f98d1ae80870")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.18 0.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0a491e9-d01f-4407-ac0f-d4c39cbc6b1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.18 0.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54820ed4-9cdb-4493-b53e-7e097f72f2c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.18 0.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7117beff-cdc3-4556-8708-572980e7eab8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.09 -3)
+		(end 0.47 -3)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "4efd9fb5-335a-4d73-8672-c2b1a5085928")
+	)
+	(fp_line
+		(start -5.09 -1)
+		(end -5.09 -3)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "238ca718-37aa-4a59-b700-c675f02fcda6")
+	)
+	(fp_line
+		(start -5.09 -1)
+		(end 4.88002 -1)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "c9f0058b-2232-4e16-8c29-889f5b708c3b")
+	)
+	(fp_line
+		(start -2.61 1)
+		(end 4.89 1)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "82b043af-8df8-43f1-98d4-c59c62412676")
+	)
+	(fp_line
+		(start -2.61 2.81)
+		(end -2.61 1)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "63749301-5fea-4a6a-a808-04608399071d")
+	)
+	(fp_line
+		(start -0.81 2.81)
+		(end -0.81 1)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "9f9a1ee2-10bf-4984-986b-b62aac8aa122")
+	)
+	(fp_line
+		(start 4.89 1)
+		(end 4.89 -1)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "bf85720c-ce91-4915-a1bc-ba14fe4f0c01")
+	)
+	(fp_rect
+		(start -5.47 -4.17)
+		(end 5.23 3.63)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "b829872b-3a2f-490e-9e63-2b8bc043d120")
+	)
+	(fp_rect
+		(start -5.47 -4.17)
+		(end 5.23 3.63)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2382f73c-6d39-4cba-b358-3085c2050932")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 -0.09 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78d01857-4633-470d-90b9-ed670925304b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at -2.61 2.81 180)
+		(size 0.7 1.524)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0393c5d6-34db-4da1-bf82-b841c377c8c0")
+	)
+	(pad "2" connect rect
+		(at -0.81 2.81 180)
+		(size 0.7 1.524)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a3666cc8-5c8b-4091-8dea-c6e3d1b2f330")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7758f148-f044-4828-a8d0-f636e4621e1c")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.9 -4.3) (xy 5.6 -4.3) (xy 5.6 3.7) (xy -2.2 3.7) (xy -2.2 3) (xy -3 3) (xy -3 3.7) (xy -5.9 3.7)
+			)
+		)
+	)
+)

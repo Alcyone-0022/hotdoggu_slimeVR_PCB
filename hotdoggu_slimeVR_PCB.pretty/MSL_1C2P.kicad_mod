@@ -1,0 +1,128 @@
+(footprint "MSL_1C2P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.68 -2.88 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "08789fba-25bf-4c41-ad68-d04c6e241ffb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MSL_1C2P"
+		(at 0.08 3.14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13923c30-3ce2-4ce6-bac9-634e977ec355")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.04 -4.64 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ced844e-07ff-40b1-bce5-6d6cf0b1cbac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.04 -4.64 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33e39df5-7d83-4c3b-8a23-c2f99bc72f97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.04 -4.64 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b607d71-872b-47b4-87b2-333c2730a4e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.76 -2)
+		(end 5.74 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "490cabb7-9730-4f17-b879-deee7397e2eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.06 0.34 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "586d0719-2b3e-4110-8ca3-982b3399398d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.51 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80e27123-1e44-4b26-8635-ebf9c71acbbd")
+	)
+	(pad "2" thru_hole circle
+		(at -0.01 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6856eb1-1688-473c-8894-e571d574e64c")
+	)
+	(pad "3" thru_hole circle
+		(at 2.49 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3b0571a-b720-48ab-ba36-58833c909a0a")
+	)
+	(model "${KIPRJMOD}/hotdoggu_slimeVR_PCB.pretty/MSL-1C2P SW.step"
+		(offset
+			(xyz -60.8 -10.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
