@@ -13,6 +13,7 @@ Includes 3d-printable case **(for 18650 cell and socket, needs glue like hot mel
 |100k axial resistor|2ea. For battery voltage measurement|-|
 |18650 Li-ion cell|1ea. use any 18650 cell or Li-ion battery. Solder to J2.    Note:    the 3d model in STL files is made for 18650 cell. **This PCB does NOT has charging circuit!**|-|
 |BB521|18650 battery socket|https://www.devicemart.co.kr/goods/view?no=12766763|
+|26AWG Cable|Connect main to aux IMU. Use or make twisted pair of VCC-SDA/GND-SCK. <a href="https://docs.slimevr.dev/diy/tracker-schematics.html">See slimeVR Documentation</a>|-|
 # slimeVR Configuration
 **platformio.ini**
 ```ini
@@ -57,5 +58,7 @@ board = lolin_c3_mini
 ```
 
 # Thanks to
-usini:usini_kicad_sensors    
+SooDragon - the maker of Geekble Mini   
+https://github.com/SooDragon/GeekbleMini-ESP32C3.git    
+usini - usini_kicad_sensors    
 https://github.com/usini/usini_kicad_sensors
