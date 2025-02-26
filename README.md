@@ -1,4 +1,4 @@
-![hotdoggu_slimeVR_PCB.png](./hotdoggu_slimeVR_PCB.png)    
+<img src = "./hotdoggu_slimeVR_PCB.png" width ="530" /> <img src = "./hotdoggu_slimeVR_realpic.jpg" width ="500" />
 # hotdoggu_slimeVR_PCB
 KiCad project - slimevr tracker using Geekble mini ESP32C3, MPU6050    
 Includes PCB Antenna (Meandered PIFA 2.4Ghz)    
