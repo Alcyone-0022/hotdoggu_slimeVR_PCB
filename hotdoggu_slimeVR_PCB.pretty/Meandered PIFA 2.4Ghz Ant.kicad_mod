@@ -1,7 +1,7 @@
 (footprint "Meandered PIFA 2.4Ghz Ant"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.18 -0.49 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d5a3d9a8-3abd-4488-a269-f98d1ae80870")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.18 0.01 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0a491e9-d01f-4407-ac0f-d4c39cbc6b1b")
 		(effects
 			(font
 				(size 1 1)
@@ -143,7 +130,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "b829872b-3a2f-490e-9e63-2b8bc043d120")
 	)
@@ -154,7 +141,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2382f73c-6d39-4cba-b358-3085c2050932")
 	)
@@ -177,7 +164,7 @@
 		(uuid "0393c5d6-34db-4da1-bf82-b841c377c8c0")
 	)
 	(pad "2" connect rect
-		(at -0.81 2.81 180)
+		(at -0.81 2.5 180)
 		(size 0.7 1.524)
 		(layers "F.Cu" "F.Mask")
 		(uuid "a3666cc8-5c8b-4091-8dea-c6e3d1b2f330")
@@ -185,7 +172,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask")
 		(uuid "7758f148-f044-4828-a8d0-f636e4621e1c")
 		(hatch edge 0.5)
 		(connect_pads
@@ -200,14 +187,19 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
 		)
 		(polygon
 			(pts
-				(xy -5.9 -4.3) (xy 5.6 -4.3) (xy 5.6 3.7) (xy -2.2 3.7) (xy -2.2 3) (xy -3 3) (xy -3 3.7) (xy -5.9 3.7)
+				(xy -6.9 -4.3) (xy 6.6 -4.3) (xy 6.6 3.7) (xy -2.2 3.7) (xy -2.2 3) (xy -3 3) (xy -3 3.7) (xy -6.9 3.7)
 			)
 		)
 	)
+	(embedded_fonts no)
 )

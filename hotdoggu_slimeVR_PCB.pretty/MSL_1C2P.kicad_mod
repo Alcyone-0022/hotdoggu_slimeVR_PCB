@@ -1,10 +1,10 @@
 (footprint "MSL_1C2P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3.68 -2.88 0)
+		(at -0.01 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "08789fba-25bf-4c41-ad68-d04c6e241ffb")
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "13923c30-3ce2-4ce6-bac9-634e977ec355")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.04 -4.64 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4ced844e-07ff-40b1-bce5-6d6cf0b1cbac")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "490cabb7-9730-4f17-b879-deee7397e2eb")
 	)
@@ -114,6 +101,7 @@
 		(remove_unused_layers no)
 		(uuid "d3b0571a-b720-48ab-ba36-58833c909a0a")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/hotdoggu_slimeVR_PCB.pretty/MSL-1C2P SW.step"
 		(offset
 			(xyz -60.8 -10.5 0)
