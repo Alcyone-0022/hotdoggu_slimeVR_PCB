@@ -540,183 +540,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT_312"
-			(pin_names
-				(offset 1)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT_312"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_312_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_312_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "hotdoggu_slimeVR_PCB:Geekble_Mini_ESP32C3FH4_SMD"
+		(symbol "Geekble Mini ESP32C3FH4:Geekble_Mini_ESP32C3FH4_v2.0_SMD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -737,7 +561,7 @@
 					)
 				)
 			)
-			(property "Footprint" "hotdoggu_slimeVR_PCB:Geekble_Mini_ESP32C3_SMD"
+			(property "Footprint" "Geekble Mini ESP32C3FH4:Geekble_Mini_ESP32C3FH4_V2.0_SMD"
 				(at 4.064 21.082 0)
 				(effects
 					(font
@@ -763,9 +587,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Geekble_Mini_ESP32C3FH4_SMD_1_0"
+			(symbol "Geekble_Mini_ESP32C3FH4_v2.0_SMD_1_0"
 				(pin bidirectional line
-					(at -12.7 10.16 0)
+					(at -12.7 6.35 0)
 					(length 2.54)
 					(name "GPIO0/A0"
 						(effects
@@ -774,7 +598,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1 1)
@@ -783,7 +607,7 @@
 					)
 				)
 			)
-			(symbol "Geekble_Mini_ESP32C3FH4_SMD_1_1"
+			(symbol "Geekble_Mini_ESP32C3FH4_v2.0_SMD_1_1"
 				(rectangle
 					(start -10.2105 -19.268)
 					(end -6.0021 -21.2195)
@@ -974,17 +798,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -12.7 6.35 0)
+				(pin power_out line
+					(at -12.7 10.16 0)
 					(length 2.54)
-					(name "GPIO1/A1"
+					(name "3V3"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1 1)
@@ -995,7 +819,7 @@
 				(pin bidirectional line
 					(at -12.7 2.54 0)
 					(length 2.54)
-					(name "GPIO2/A2"
+					(name "GPIO1/A1"
 						(effects
 							(font
 								(size 1 1)
@@ -1013,7 +837,7 @@
 				(pin bidirectional line
 					(at -12.7 -1.27 0)
 					(length 2.54)
-					(name "GPIO3/A3"
+					(name "GPIO2/A2"
 						(effects
 							(font
 								(size 1 1)
@@ -1031,7 +855,7 @@
 				(pin bidirectional line
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "GPIO4/A4"
+					(name "GPIO3/A3"
 						(effects
 							(font
 								(size 1 1)
@@ -1049,7 +873,7 @@
 				(pin bidirectional line
 					(at -12.7 -8.89 0)
 					(length 2.54)
-					(name "GPIO5/A5"
+					(name "GPIO4/A4"
 						(effects
 							(font
 								(size 1 1)
@@ -1136,10 +960,46 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "USB_D+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 12.7 270)
+					(length 2.54)
+					(name "USB_D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 20.32 10.16 180)
 					(length 2.54)
-					(name "3V3"
+					(name "GPIO10/D10"
 						(effects
 							(font
 								(size 1 1)
@@ -1157,7 +1017,7 @@
 				(pin bidirectional line
 					(at 20.32 6.35 180)
 					(length 2.54)
-					(name "GPIO10/D10"
+					(name "GPIO9/D9"
 						(effects
 							(font
 								(size 1 1)
@@ -1172,10 +1032,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 20.32 2.54 180)
 					(length 2.54)
-					(name "GPIO9/D9"
+					(name "GPIO8/D8"
 						(effects
 							(font
 								(size 1 1)
@@ -1190,17 +1050,17 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 20.32 -1.27 180)
 					(length 2.54)
-					(name "GPIO8/D8"
+					(name "GPIO7/D7"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "17"
+					(number "14"
 						(effects
 							(font
 								(size 1 1)
@@ -1211,7 +1071,7 @@
 				(pin bidirectional line
 					(at 20.32 -5.08 180)
 					(length 2.54)
-					(name "GPIO7/D7"
+					(name "GPIO6/D6"
 						(effects
 							(font
 								(size 1 1)
@@ -1229,7 +1089,7 @@
 				(pin bidirectional line
 					(at 20.32 -8.89 180)
 					(length 2.54)
-					(name "GPIO6/D6"
+					(name "GPIO5/D5"
 						(effects
 							(font
 								(size 1 1)
@@ -1312,6 +1172,182 @@
 						(effects
 							(font
 								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT_312"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_312"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_312_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_312_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2043,26 +2079,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 58.42) (xy 151.13 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0179322a-2e62-4746-8668-fc786e8d9ac7")
-	)
-	(wire
-		(pts
-			(xy 147.32 58.42) (xy 151.13 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05d2b76d-294d-43d2-a7fe-d532d3521c20")
-	)
-	(wire
-		(pts
 			(xy 114.3 121.92) (xy 119.38 121.92)
 		)
 		(stroke
@@ -2073,13 +2089,33 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 58.42) (xy 114.3 58.42)
+			(xy 151.13 83.82) (xy 151.13 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dd0df31-9ef4-43fc-8581-8805cc3f5322")
+		(uuid "0d68815a-aa8c-4819-90de-603fc5c27d21")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ece5537-c7dc-4445-a428-65715edf82a9")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e091c8a-55ad-4ee6-a51a-342794d30a62")
 	)
 	(wire
 		(pts
@@ -2090,16 +2126,6 @@
 			(type default)
 		)
 		(uuid "285c6fbb-45e6-40b4-95ef-bc98c00d128c")
-	)
-	(wire
-		(pts
-			(xy 114.3 88.9) (xy 110.49 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ac69179-01de-41d5-b00a-cf523a661639")
 	)
 	(wire
 		(pts
@@ -2120,16 +2146,6 @@
 			(type default)
 		)
 		(uuid "41a90948-0316-4bbc-9e73-2278cac752c5")
-	)
-	(wire
-		(pts
-			(xy 151.13 76.2) (xy 151.13 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43582067-172d-46e9-94fe-3b6e853cf3d5")
 	)
 	(wire
 		(pts
@@ -2160,26 +2176,6 @@
 			(type default)
 		)
 		(uuid "526d5981-bcb0-4d20-b585-dcc3c72f862d")
-	)
-	(wire
-		(pts
-			(xy 110.49 88.9) (xy 110.49 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f81f29-248a-4ecd-bc93-446163f6ef12")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6f305c-0b71-4697-9efd-416f2d7da85c")
 	)
 	(wire
 		(pts
@@ -2223,13 +2219,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 73.66) (xy 147.32 73.66)
+			(xy 110.49 58.42) (xy 114.3 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "956984a9-5f83-415c-bca7-105454b9840b")
+		(uuid "91127ee5-81f6-4228-9158-c6fe3968e63a")
 	)
 	(wire
 		(pts
@@ -2283,13 +2279,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 114.3 81.28)
+			(xy 151.13 81.28) (xy 147.32 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd17d971-b9f6-4092-a174-1964654339ea")
+		(uuid "bc2fe092-55a6-4176-9015-b8a21158f969")
 	)
 	(wire
 		(pts
@@ -2303,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 62.23) (xy 96.52 62.23)
+			(xy 96.52 62.23) (xy 114.3 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2330,6 +2326,26 @@
 			(type default)
 		)
 		(uuid "dd74114a-f96c-4a76-803e-ba4485374f0c")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc70491-72fa-46d0-8d0e-d392edbcbda7")
+	)
+	(wire
+		(pts
+			(xy 106.68 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a0efd1-28e7-4d6a-b492-e0e5abb3c369")
 	)
 	(wire
 		(pts
@@ -2381,16 +2397,6 @@
 		)
 		(uuid "2874c271-c3c2-42ea-9750-16540611906e")
 	)
-	(label "VBAT_SW"
-		(at 104.14 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28871756-aea2-4a19-acc6-ad47702df7f3")
-	)
 	(label "SCL"
 		(at 129.54 146.05 270)
 		(effects
@@ -2400,6 +2406,16 @@
 			(justify right bottom)
 		)
 		(uuid "50804a63-58f1-4608-979d-8960dcbdbbe2")
+	)
+	(label "VBAT_SW"
+		(at 106.68 92.71 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c601ed2-43eb-4477-a2d0-48ce14f5c9f8")
 	)
 	(label "SCL"
 		(at 114.3 119.38 0)
@@ -2443,6 +2459,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 110.49 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "032f8210-9de5-4ad6-911c-6da7cbdf0dc4")
+		(property "Reference" "#PWR018"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3778c7d-b9b3-43df-8866-f6b34411ae66")
+		)
+		(instances
+			(project "hotdoggu_slimeVR_PCB"
+				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 134.62 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2450,8 +2532,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0036600c-c4c8-43ea-aafd-248e72d2aa43")
-		(property "Reference" "#PWR09"
+		(uuid "0b4194db-624f-49e6-9019-f2c950297c28")
+		(property "Reference" "#PWR014"
 			(at 134.62 156.21 0)
 			(effects
 				(font
@@ -2496,12 +2578,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bbb727c-30e5-4d3c-9d27-7e50f3112bc0")
+			(uuid "9a070721-6752-46ff-852b-392eba0e0aef")
 		)
 		(instances
 			(project "hotdoggu_slimeVR_PCB"
 				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2572,6 +2654,72 @@
 			(project ""
 				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "278c377d-3e15-4732-9701-ce609f17e405")
+		(property "Reference" "#PWR017"
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c21aa06e-9309-406e-b5a2-66738b9b1034")
+		)
+		(instances
+			(project "hotdoggu_slimeVR_PCB"
+				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2743,73 +2891,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e991d09-07ac-45b3-8a51-5e6494f3d357")
-		(property "Reference" "#PWR04"
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa1726e8-a1e8-4d82-9557-295f75d4419f")
-		)
-		(instances
-			(project "hotdoggu_slimeVR_PCB"
-				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 124.46 0)
+		(at 180.34 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2818,7 +2900,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f32f8c1-11ea-4507-935a-46dc0c5b15e8")
 		(property "Reference" "#PWR012"
-			(at 176.53 130.81 0)
+			(at 180.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 129.54 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 124.46 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 124.46 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 124.46 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2957,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 151.13 57.15 0)
+		(at 110.49 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2884,7 +2966,7 @@
 		(fields_autoplaced yes)
 		(uuid "610d4c51-e734-410f-88dd-1b42499e325c")
 		(property "Reference" "#PWR01"
-			(at 151.13 60.96 0)
+			(at 110.49 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2975,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.13 52.07 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 57.15 0)
+			(at 110.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +2992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 57.15 0)
+			(at 110.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +3001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.13 57.15 0)
+			(at 110.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +3013,7 @@
 			(uuid "f4ba32f5-598f-49bb-9d60-488446ce4280")
 		)
 		(instances
-			(project ""
+			(project "hotdoggu_slimeVR_PCB"
 				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
 					(reference "#PWR01")
 					(unit 1)
@@ -3076,7 +3158,7 @@
 		)
 	)
 	(symbol
-		(lib_id "hotdoggu_slimeVR_PCB:Geekble_Mini_ESP32C3FH4_SMD")
+		(lib_id "Geekble Mini ESP32C3FH4:Geekble_Mini_ESP32C3FH4_v2.0_SMD")
 		(at 127 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3100,7 +3182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hotdoggu_slimeVR_PCB:Geekble_Mini_ESP32C3_SMD"
+		(property "Footprint" "Geekble Mini ESP32C3FH4:Geekble_Mini_ESP32C3FH4_V2.0_SMD"
 			(at 131.064 47.498 0)
 			(effects
 				(font
@@ -3156,7 +3238,7 @@
 		(pin "3"
 			(uuid "92759747-393a-42db-8c62-07448d7dac71")
 		)
-		(pin "17"
+		(pin "14"
 			(uuid "3b3ee1ea-f092-4f50-9a77-c31d1dfc2748")
 		)
 		(pin "4"
@@ -3186,76 +3268,16 @@
 		(pin "9"
 			(uuid "aa938030-fbf0-4042-a4bb-89ee484068c1")
 		)
+		(pin "22"
+			(uuid "2b46ce69-3e16-4b94-be36-5cb426868f28")
+		)
+		(pin "21"
+			(uuid "5d32f2b1-71e2-4f51-b667-fb7dc5dd7e54")
+		)
 		(instances
 			(project ""
 				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96e54306-6ff7-4a7a-ae4e-fe95c682518c")
-		(property "Reference" "#PWR08"
-			(at 110.49 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5abf2419-d4ab-468a-82fe-6901d8848d92")
-		)
-		(instances
-			(project "hotdoggu_slimeVR_PCB"
-				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3322,138 +3344,6 @@
 			(project "hotdoggu_slimeVR_PCB"
 				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbea3ab5-af21-40a9-9a5f-d927a2d3c24e")
-		(property "Reference" "#PWR03"
-			(at 96.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "111e3b25-0b2e-4fb4-8c23-7d410f3a42a0")
-		)
-		(instances
-			(project ""
-				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcc578c0-7112-4a1d-9c98-66a8ee592cb8")
-		(property "Reference" "#PWR06"
-			(at 151.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "180ac499-7689-490b-81c8-7e0710af116e")
-		)
-		(instances
-			(project "hotdoggu_slimeVR_PCB"
-				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3531,16 +3421,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 96.52 0)
+		(at 96.52 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d8aefe24-7a16-43df-9f7c-3c6042962055")
-		(property "Reference" "#PWR011"
-			(at 180.34 102.87 0)
+		(uuid "c690d309-5d24-4821-9728-c29bf3f98ac7")
+		(property "Reference" "#PWR015"
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3439,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 101.6 0)
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 96.52 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 96.52 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 96.52 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,12 +3474,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a693314-921f-46bb-bdc7-5cd161863c1f")
+			(uuid "a52bdb11-f536-4f82-b33e-291331b80b45")
 		)
 		(instances
 			(project "hotdoggu_slimeVR_PCB"
 				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3723,6 +3613,138 @@
 			(project "hotdoggu_slimeVR_PCB"
 				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e70ba5d6-27f2-43c4-a111-52815427ff4b")
+		(property "Reference" "#PWR013"
+			(at 176.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be7ef637-88c5-4eda-b2d4-80363d42ca89")
+		)
+		(instances
+			(project "hotdoggu_slimeVR_PCB"
+				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3c775a0-bf5d-4ace-935f-96876d0a132a")
+		(property "Reference" "#PWR016"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2adcb70a-4716-4a2b-91d9-e73a3f0d43b6")
+		)
+		(instances
+			(project "hotdoggu_slimeVR_PCB"
+				(path "/8afbe1a0-3ff6-406e-af1c-a90ad31cf069"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

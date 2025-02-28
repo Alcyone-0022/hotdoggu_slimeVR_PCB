@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "Geekble_Mini_ESP32C3FH4_SMD"
+	(symbol "Geekble_Mini_ESP32C3_SMD"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -23,7 +23,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hotdoggu_slimeVR_PCB:Geekble_Mini_ESP32C3_SMD"
+		(property "Footprint" "Geekble Mini ESP32C3FH4:Geekble_Mini_ESP32C3FH4_SMD"
 			(at 4.064 21.082 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Geekble_Mini_ESP32C3FH4_SMD_1_0"
+		(symbol "Geekble_Mini_ESP32C3_SMD_1_0"
 			(pin bidirectional line
 				(at -12.7 10.16 0)
 				(length 2.54)
@@ -69,10 +69,10 @@
 				)
 			)
 		)
-		(symbol "Geekble_Mini_ESP32C3FH4_SMD_1_1"
+		(symbol "Geekble_Mini_ESP32C3_SMD_1_1"
 			(rectangle
-				(start -10.2105 -9.108)
-				(end -6.0021 -11.0595)
+				(start -10.2105 -19.268)
+				(end -6.0021 -21.2195)
 				(stroke
 					(width -0.0001)
 					(type solid)
@@ -84,7 +84,7 @@
 			)
 			(rectangle
 				(start -10.16 16.51)
-				(end 17.78 -20.32)
+				(end 17.78 -31.75)
 				(stroke
 					(width 0)
 					(type default)
@@ -105,7 +105,7 @@
 				)
 			)
 			(circle
-				(center -7.62 -17.78)
+				(center -7.62 -29.21)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -116,8 +116,8 @@
 				)
 			)
 			(rectangle
-				(start 5.8201 -14.3913)
-				(end 9.5027 -15.9648)
+				(start 5.8201 -25.8213)
+				(end 9.5027 -27.3948)
 				(stroke
 					(width -0.0001)
 					(type solid)
@@ -129,7 +129,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.1882 -16.7789) (xy 6.1882 -19.3189)
+					(xy 6.1882 -28.2089) (xy 6.1882 -30.7489)
 				)
 				(stroke
 					(width 0)
@@ -140,8 +140,8 @@
 				)
 			)
 			(rectangle
-				(start 6.6571 -17.237)
-				(end 9.2684 -18.8774)
+				(start 6.6571 -28.667)
+				(end 9.2684 -30.3074)
 				(stroke
 					(width -0.0001)
 					(type solid)
@@ -152,7 +152,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.398 -16.764) (xy 3.0414 -16.7683)
+					(xy 9.398 -28.194) (xy 3.0414 -28.1983)
 				)
 				(stroke
 					(width 0)
@@ -164,7 +164,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.398 -19.304) (xy 3.0414 -19.3083)
+					(xy 9.398 -30.734) (xy 3.0414 -30.7383)
 				)
 				(stroke
 					(width 0)
@@ -176,7 +176,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -20.32) (xy 17.78 -15.24) (xy 17.78 -20.32) (xy 12.7 -20.32)
+					(xy 12.7 -31.75) (xy 17.78 -26.67) (xy 17.78 -31.75) (xy 12.7 -31.75)
 				)
 				(stroke
 					(width 0)
@@ -188,8 +188,8 @@
 				)
 			)
 			(rectangle
-				(start 13.5772 -4.0551)
-				(end 17.7856 -6.0066)
+				(start 13.5772 -11.6751)
+				(end 17.7856 -13.6266)
 				(stroke
 					(width -0.0001)
 					(type solid)
@@ -211,7 +211,7 @@
 				)
 			)
 			(circle
-				(center 15.24 -17.78)
+				(center 15.24 -29.21)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -221,17 +221,8 @@
 					(type background)
 				)
 			)
-			(text "Geekble Mini\nESP32C3_SMD\n"
-				(at -2.286 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
 			(text "ESP32\nC3FH4"
-				(at 0.508 -17.526 0)
+				(at 0.508 -28.956 0)
 				(effects
 					(font
 						(face "Arial")
@@ -241,7 +232,7 @@
 				)
 			)
 			(text "Geekble"
-				(at 2.032 -15.24 0)
+				(at 2.032 -26.67 0)
 				(effects
 					(font
 						(face "Arial")
@@ -250,8 +241,16 @@
 					)
 				)
 			)
+			(text "Geekble Mini\nESP32C3FH4_SMD\n"
+				(at 3.556 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(text "Mini"
-				(at 7.62 -15.24 0)
+				(at 7.62 -26.67 0)
 				(effects
 					(font
 						(face "Arial")
@@ -262,7 +261,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 7.62 0)
+				(at -12.7 6.35 0)
 				(length 2.54)
 				(name "GPIO1/A1"
 					(effects
@@ -280,7 +279,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 5.08 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "GPIO2/A2"
 					(effects
@@ -298,7 +297,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 2.54 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "GPIO3/A3"
 					(effects
@@ -316,7 +315,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 0 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "GPIO4/A4"
 					(effects
@@ -334,7 +333,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -2.54 0)
+				(at -12.7 -8.89 0)
 				(length 2.54)
 				(name "GPIO5/A5"
 					(effects
@@ -352,7 +351,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -5.08 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "VUSB"
 					(effects
@@ -370,7 +369,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -7.62 0)
+				(at -12.7 -16.51 0)
 				(length 2.54)
 				(name "GPIO9/B"
 					(effects
@@ -388,7 +387,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at -12.7 -20.32 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -406,7 +405,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -12.7 0)
+				(at -12.7 -24.13 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -442,7 +441,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 7.62 180)
+				(at 20.32 6.35 180)
 				(length 2.54)
 				(name "GPIO10/D10"
 					(effects
@@ -460,7 +459,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 5.08 180)
+				(at 20.32 2.54 180)
 				(length 2.54)
 				(name "GPIO9/D9"
 					(effects
@@ -477,8 +476,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 20.32 2.54 180)
+			(pin bidirectional line
+				(at 20.32 -1.27 180)
 				(length 2.54)
 				(name "GPIO8/D8"
 					(effects
@@ -496,7 +495,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 0 180)
+				(at 20.32 -5.08 180)
 				(length 2.54)
 				(name "GPIO7/D7"
 					(effects
@@ -514,7 +513,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -2.54 180)
+				(at 20.32 -8.89 180)
 				(length 2.54)
 				(name "GPIO6/D6"
 					(effects
@@ -532,7 +531,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -5.08 180)
+				(at 20.32 -12.7 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -550,7 +549,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -7.62 180)
+				(at 20.32 -16.51 180)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -568,7 +567,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -10.16 180)
+				(at 20.32 -20.32 180)
 				(length 2.54)
 				(name "GPIO20/RX"
 					(effects
@@ -586,7 +585,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -12.7 180)
+				(at 20.32 -24.13 180)
 				(length 2.54)
 				(name "GPIO21/TX"
 					(effects
