@@ -47,8 +47,8 @@ board = lolin_c3_mini
 #elif BOARD == BOARD_CUSTOM
 #define LED_PIN 10
 #define LED_INVERTED false
-#define PIN_IMU_SDA 4
-#define PIN_IMU_SCL 5
+#define PIN_IMU_SDA 3
+#define PIN_IMU_SCL 4
 #define PIN_IMU_INT 255
 #define PIN_IMU_INT_2 255
 #define PIN_BATTERY_LEVEL 0

@@ -553,12 +553,13 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -3.81 13.97 0)
+			(property "Value" "GeekbleMini_V2.0_SMD"
+				(at 4.318 18.288 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Geekble Mini ESP32C3FH4:Geekble_Mini_ESP32C3FH4_V2.0_SMD"
@@ -779,7 +780,7 @@
 						)
 					)
 				)
-				(text "Geekble Mini\nESP32C3FH4_SMD\n"
+				(text "Geekble Mini\nESP32C3FH4_V2.0_SMD\n"
 					(at 3.556 -34.29 0)
 					(effects
 						(font
@@ -1032,7 +1033,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 20.32 2.54 180)
 					(length 2.54)
 					(name "GPIO8/D8"
@@ -2179,6 +2180,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5653ba0f-5e52-42f1-bb50-9acde4e14198")
+	)
+	(wire
+		(pts
 			(xy 114.3 119.38) (xy 119.38 119.38)
 		)
 		(stroke
@@ -2357,15 +2368,15 @@
 		)
 		(uuid "e6b6a91d-5184-443a-ab8f-0f2adcf21b6b")
 	)
-	(wire
-		(pts
-			(xy 107.95 73.66) (xy 114.3 73.66)
+	(label "SCL"
+		(at 107.95 77.47 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0104e5-e3f8-44e4-9fbe-f67273274a14")
+		(uuid "202365aa-4086-4d5f-b6c0-163465570a58")
 	)
 	(label "SDA"
 		(at 124.46 146.05 270)
@@ -2395,7 +2406,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2874c271-c3c2-42ea-9750-16540611906e")
+		(uuid "28c9b2fc-971a-4780-be31-dc9269aa4d8a")
 	)
 	(label "SCL"
 		(at 129.54 146.05 270)
@@ -2446,16 +2457,6 @@
 			(justify right bottom)
 		)
 		(uuid "d44848d7-6941-4d14-b713-bb75d289e519")
-	)
-	(label "SCL"
-		(at 107.95 77.47 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1bc0744-16c4-405e-b177-45c6ece50128")
 	)
 	(symbol
 		(lib_id "power:GND")
